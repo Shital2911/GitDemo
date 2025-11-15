@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class switch_alert {
 	public static void main(String[] args) throws InterruptedException {
 
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = (WebDriver) new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.id("name")).sendKeys("Shital");
 		driver.findElement(By.id("alertbtn")).click();
@@ -23,3 +23,4 @@ public class switch_alert {
 		driver.switchTo().alert().dismiss();
 	}
 }
+//

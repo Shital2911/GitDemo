@@ -37,6 +37,9 @@ public class assignmemt1 {
 		{
 
 			System.out.println("Alert message success");
+			System.out.println("Alert message success");
+			System.out.println("Alert message success");
+			System.out.println("Alert message success");
 
 		}
 
