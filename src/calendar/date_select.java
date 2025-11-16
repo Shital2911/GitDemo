@@ -22,11 +22,11 @@ public class date_select {
 
 // TODO Auto-generated method stub
 
-		String monthNumber = "6";
+		String monthNumber = "9";
 
-		String date = "15";
+		String date = "16";
 
-		String year = "2027";
+		String year = "2028";
 
 		String[] expectedList = { monthNumber, date, year };
 
