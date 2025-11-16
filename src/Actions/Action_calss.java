@@ -19,6 +19,19 @@ public class Action_calss
 	WebElement move = driver.findElement(By.id("nav-link-accountList-nav-line-1"));
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	a.moveToElement(move).build().perform();
 	a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().perform();
 	

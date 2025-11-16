@@ -28,6 +28,9 @@ public class Assignment {
 		if (text.contains(check_text)) 
 		{
 			System.out.println("The alert message getting");
+			System.out.println("The alert message1 getting");
+			System.out.println("The alert message2 getting");
+			System.out.println("The alert message3 getting");
 		}
 		else
 		{
